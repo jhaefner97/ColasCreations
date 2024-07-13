@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: rgba(98, 63, 79, 0.85);
+}
+
+.custom-navbar {
+    background-color: rgba(98, 63, 79, 0.85);
+}
+
+.customHeader {
+   color: #3C313E;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+}
+
+.linkHeader {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ }
+
+.footerText {
+    color: #FFFBF8; 
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #FFFBF8; 
+}
+
+.myLink {
+    background-color: rgba(98, 63, 79, 0.85);
+    color: #FFFBF8;
+    padding: 20px;
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+
+      border: 1px solid #dee2e6; 
+      text-align: center;
+      border-radius: 10px; 
+}
+
+.myLink p {
+    margin: 0;
+}
+
+.myLink:hover {
+    background-color: rgba(98, 63, 79); /* Slightly darker background on hover */
+  }
+
+.eventImage {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+#body {
+    background-color: #FFFBF8;
+}
+
+#headerImage {
+    height: 12em; 
+    -o-object-fit: cover; 
+       object-fit: cover; 
+    -o-object-position: center; 
+       object-position: center; 
+}
+
+#logo {
+    height: 5em;
+    -o-object-position: center; 
+        object-position: center; 
+}
+
+.shop {
+    height: 8em;
+    width: auto;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+
+}
