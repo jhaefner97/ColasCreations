@@ -57,6 +57,17 @@ footer {
     object-fit: cover;
 }
 
+#aboutMePhoto {
+    max-width: 100%;
+    height: 12em;
+    width: auto;
+    border-radius: 3em;
+}
+
+#aboutIntro {
+    color: rgba(98, 63, 79, 0.85);
+}
+
 #body {
     background-color: #FFFBF8;
 }
@@ -82,3 +93,4 @@ footer {
     max-width: 100%;
 
 }
+
