@@ -1,95 +1,151 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/2e8ca123e1.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/2e8ca123e1.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
     <!-- Custom CSS -->
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet" />
     <script src="js/include.js"></script>
 
     <title>Colas Creations</title>
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-6DRS9EMJQH"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-6DRS9EMJQH");
+  </script>
   <body>
     <div data-my-include-html="includes/header.html"></div>
 
     <div data-my-include-html="includes/nav.html"></div>
-  
+
     <div class="container-fluid p-3" id="mainContainer">
-        <div class="row">
-            <h1 class="col-12 mt-4 customHeader">Cola's Creations & Gifts</h1>
-        </div>
-        <div class="row">
-            <h2 class="col-12 mt-4 customHeader">My Links</h2>
-            <div class="mb-3 row justify-content-center p-4 pe-0">
-                <div class="myLink col-12 col-md-4 me-md-5 mb-3 mb-md-0" onclick="window.open('https://www.etsy.com/shop/ColasCreationsGifts?ref=search_shop_redirect')">
-                    <div class="row justify-content-center">
-                        <p class="linkHeader">Etsy</p>
-                        <img class="shop" src="Images/EtsyShop.png" alt="Etsy Screenshot">
-                    </div>
-                </div>
-                <div class=" myLink col-12 col-md-4" onclick="window.open('https://www.instagram.com/colascreations_gifts/')">
-                    <div class="row justify-content-center">
-                        <p class="linkHeader">Instagram</p>
-                        <img class="shop" src="Images/InstagramPage.jpeg" alt="Etsy Screenshot">
-                    </div>
-                </div>
+      <div class="row">
+        <h1 class="col-12 mt-4 customHeader">Cola's Creations & Gifts</h1>
+      </div>
+      <div class="row">
+        <h2 class="col-12 mt-4 customHeader">My Links</h2>
+        <div class="mb-3 row justify-content-center p-4 pe-0">
+          <div
+            class="myLink col-12 col-md-4 me-md-5 mb-3 mb-md-0"
+            onclick="window.open('https://www.etsy.com/shop/ColasCreationsGifts?ref=search_shop_redirect')"
+          >
+            <div class="row justify-content-center">
+              <p class="linkHeader">Etsy</p>
+              <img
+                class="shop"
+                src="Images/EtsyShop.png"
+                alt="Etsy Screenshot"
+              />
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <h2 class="col-12 mt-4 customHeader">Upcoming Events</h2>
-            <div class="col-12 col-md-6 card m-3 bg-light pt-3">
-                <img class="card-header eventImage" src="/Images/Events/b2sc_2024.jpeg" alt="Back to School Event">
-                <div class="card-body">
-                    <p><span class="fw-bold">Date - </span> Saturday August 3, 2024</p>
-                    <p><span class="fw-bold">Time - </span> 10AM - 4PM</p>
-                    <p><span class="fw-bold">Address - </span> 
-                        <br />
-                        Inspiring Creativity Supplies & More LLC 
-                        <br />
-                        705 South Center Ave Suite C, Merrill, WI 54452
-                    </p>
-                </div>
+          </div>
+          <div
+            class="myLink col-12 col-md-4"
+            onclick="window.open('https://www.instagram.com/colascreations_gifts/')"
+          >
+            <div class="row justify-content-center">
+              <p class="linkHeader">Instagram</p>
+              <img
+                class="shop"
+                src="Images/InstagramPage.jpeg"
+                alt="Etsy Screenshot"
+              />
             </div>
+          </div>
         </div>
-        <div class="row">
-            <h2 class="col-12 mt-4 mb-3 customHeader">About Me</h2>
-            <img src="/Images/biopic.jpg" alt="Photo of Nicole" id="aboutMePhoto" class="img-fluid col-12 col-md-4">
-            <p class="col-12 col-md-6 mt-3 mt-md-0">
-                <span id="aboutIntro">Hi, I'm Nicole!</span>
-                <br />
-                <br />
-                I'm a project manager, crocheter, and founder of Cola's Creations &amp; Gifts. But most importantly, I'm a
-                wife and a mom to my two kids.
-                <br />
-                <br />
-                Most days you can find me trying to balance my life: managing projects, making sure my kids eat a
-                vegetable every once in a while, and spending too much time picking up the toys that are strewn all over
-                the house. This, of course, is in addition to crocheting and starting up my small business.
-                <br />
-                <br />
-                I find crocheting to be a great stress reliever and strive to make time for it daily. And, I must admit, the
-                stuffies turn out so cute!
-                <br />
-                <br />
-                My goal is to add a little joy to everyone's lives through my crochet creations - whether that's with a
-                custom stuffie or by giving help with one of my how-to videos. Please reach out, I'd love to hear from
-                you!
+      </div>
+      <div class="row justify-content-center">
+        <h2 class="col-12 mt-4 customHeader">Upcoming Events</h2>
+        <div class="col-12 col-md-6 card m-3 bg-light pt-3">
+          <img
+            class="card-header eventImage"
+            src="/Images/Events/b2sc_2024.jpeg"
+            alt="Back to School Event"
+          />
+          <div class="card-body">
+            <p><span class="fw-bold">Date - </span> Saturday August 3, 2024</p>
+            <p><span class="fw-bold">Time - </span> 10AM - 4PM</p>
+            <p>
+              <span class="fw-bold">Address - </span>
+              <br />
+              Inspiring Creativity Supplies & More LLC
+              <br />
+              705 South Center Ave Suite C, Merrill, WI 54452
             </p>
+          </div>
         </div>
+      </div>
+      <div class="row">
+        <h2 class="col-12 mt-4 mb-3 customHeader">About Me</h2>
+        <img
+          src="/Images/biopic.jpg"
+          alt="Photo of Nicole"
+          id="aboutMePhoto"
+          class="img-fluid col-12 col-md-4"
+        />
+        <p class="col-12 col-md-6 mt-3 mt-md-0">
+          <span id="aboutIntro">Hi, I'm Nicole!</span>
+          <br />
+          <br />
+          I'm a project manager, crocheter, and founder of Cola's Creations
+          &amp; Gifts. But most importantly, I'm a wife and a mom to my two
+          kids.
+          <br />
+          <br />
+          Most days you can find me trying to balance my life: managing
+          projects, making sure my kids eat a vegetable every once in a while,
+          and spending too much time picking up the toys that are strewn all
+          over the house. This, of course, is in addition to crocheting and
+          starting up my small business.
+          <br />
+          <br />
+          I find crocheting to be a great stress reliever and strive to make
+          time for it daily. And, I must admit, the stuffies turn out so cute!
+          <br />
+          <br />
+          My goal is to add a little joy to everyone's lives through my crochet
+          creations - whether that's with a custom stuffie or by giving help
+          with one of my how-to videos. Please reach out, I'd love to hear from
+          you!
+        </p>
+      </div>
     </div>
 
     <div data-my-include-html="includes/footer.html"></div>
 
-    <script>includeHTML();</script>
+    <script>
+      includeHTML();
+    </script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
