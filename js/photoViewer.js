@@ -22,8 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
         scrollWidth += imageMap[key] + 5;
       }
     });
-    console.log("Scroll Width: " + scrollWidth);
-    console.log("Current Index: " + currentIndex);
     return scrollWidth;
   };
 
